@@ -1,0 +1,93 @@
+@font-face {
+    font-family: arcade;
+    src: url(ARCADE.TTF);
+}
+@font-face {
+    font-family: digital;
+    src: url(digital-7.ttf);
+}
+@font-face {
+    font-family: marchant;
+    src: url(Merchant\ Copy\ Doublesize.ttf);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 120px;
+    background: black;
+    color: #fefae0;
+}
+
+.container{
+    font-family: marchant;
+    border: 5px solid #fefae0;
+    border-radius: 10px;
+    padding: auto;
+    width: 575px;
+    height: 385px;
+    background: #606c38;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.team{
+    margin-top: 30px;
+}
+
+.score{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 25px 20px;
+    background: #283618;
+    color: #bc6c25;
+    box-shadow: 0px 0px 5px 5px #283618;
+    font-family: arcade;
+    font-size: 70px;
+}
+
+.pointPlus{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.pointMinus{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+button{
+    background: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: #fefae0;
+    border: 1px solid #fefae0;
+    font-family: digital;
+    cursor: pointer;
+}
+button:hover{
+    background: #7b894d;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: #fefae0;
+    border: 1px solid #fefae0;
+    font-family: digital;
+}
+
+#reset-btn{
+    margin: auto 0px;
+    color: #fefae0;
+    border: 1px solid #283618;
+    box-shadow: 0px 0px 2px 2px #283618;
+}

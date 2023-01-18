@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BasketBall Scors</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="team">
+        <h1>HOME</h1>
+        <p class="score" id="score-elH">0</p>
+
+                  <!-- Plus Home Btn -->
+
+        <div class="pointPlus">
+          <div class="points-container">
+            <button id="btn1-home" onclick="homeScore1()">+1</button>
+          </div>
+
+          <div class="points-container">
+            <button id="btn2-home" onclick="homeScore2()">+2</button>
+          </div>
+
+          <div class="points-container">
+            <button id="btn3-home" onclick="homeScore3()">+3</button>
+          </div>
+        </div>
+
+                   <!-- Minus Home Btn -->
+
+        <div class="pointMinus">
+            <div class="points-container">
+                <button id="btn1-home" onclick="homeScoreM1()">-1</button>
+              </div>
+    
+              <div class="points-container">
+                <button id="btn2-home" onclick="homeScoreM2()">-2</button>
+              </div>
+    
+              <div class="points-container">
+                <button id="btn3-home" onclick="homeScoreM3()">-3</button>
+              </div>
+        </div>
+      </div>
+      
+                    <!-- Reset Button -->
+      
+      <button id="reset-btn" onclick="reset()"> Reset</button>
+
+      <div class="team">
+        <h1>AWAY</h1>
+        <p class="score" id="score-elA">0</p>
+
+             <!-- Plus Away Btn -->
+
+        <div class="pointPlus">
+          <div class="points-container">
+            <button id="btn1-away" onclick="awayScore1()">+1</button>
+          </div>
+
+          <div class="points-container">
+            <button id="btn2-away" onclick="awayScore2()">+2</button>
+          </div>
+
+          <div class="points-container">
+            <button id="btn3-away" onclick="awayScore3()">+3</button>
+          </div>
+        </div>
+
+        <!-- Minus Away Btn -->
+
+        <div class="pointMinus">
+            <div class="points-container">
+                <button id="btn1-away" onclick="awayScoreM1()">-1</button>
+              </div>
+    
+              <div class="points-container">
+                <button id="btn2-away" onclick="awayScoreM2()">-2</button>
+              </div>
+    
+              <div class="points-container">
+                <button id="btn3-away" onclick="awayScoreM3()">-3</button>
+              </div>
+        </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
